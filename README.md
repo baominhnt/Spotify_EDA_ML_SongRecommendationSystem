@@ -6,11 +6,9 @@ A Hybrid Machine Learning Recommender using Audio Features, Genre Preferences, a
 This project builds a hybrid song recommendation system using the Spotify Tracks Dataset.
 It combines:
 
-Content-based similarity (cosine similarity on scaled audio features)
-
-Genre preference matching
-
-Hit probability prediction using XGBoost
+- Content-based similarity (cosine similarity on scaled audio features)
+- Genre preference matching
+- Hit probability prediction using XGBoost
 
 The result is a personalized recommender that suggests songs similar to a user‑selected track while also considering genre preferences and popularity likelihood.
 
@@ -20,84 +18,57 @@ The notebook also includes EDA, feature engineering, and machine learning modeli
 🎧 Hybrid Recommendation Engine
 The system blends three components:
 
-Component	Description	Weight
-Similarity Score	Cosine similarity between scaled audio features	0.5
-Hit Probability	XGBoost classifier predicting if a track is a “hit”	0.3
-Genre Match	Whether the track matches user-selected genres	0.2
+Component	          Description	                                        Weight
+Similarity Score	  Cosine similarity between scaled audio features	    0.5
+Hit Probability	      XGBoost classifier predicting if a track is a “hit”	0.3
+Genre Match	          Whether the track matches user-selected genres	    0.2
 This hybrid scoring method produces recommendations that are:
-
-Sonically similar
-
-Aligned with user taste
-
-Likely to be popular
+- Sonically similar
+- Aligned with user taste
+- Likely to be popular
 
 📊 Exploratory Data Analysis (EDA)
 The notebook includes:
-
-Feature distributions
-
-Popularity trends
-
-Genre-level insights
-
-Correlation heatmaps
-
-Interaction feature exploration
+- Feature distributions
+- Popularity trends
+- Genre-level insights
+- Correlation heatmaps
+- Interaction feature exploration
 
 🧠 Machine Learning
 The project trains an XGBoost classifier to predict whether a song is a “hit” (top 10% popularity).
 Key steps include:
-
-Train/test split
-
-Standard scaling
-
-Cyclical encoding for musical key
-
-Interaction features
-
-Model evaluation
+- Train/test split
+- Standard scaling
+- Cyclical encoding for musical key
+- Interaction features
+- Model evaluation
 
 🔍 Track Name Search
 Users can input any track name, and the system will:
-
-Find the exact match
-
-Fall back to partial matching if needed
-
-Compute similarity on the fly (memory‑safe)
+- Find the exact match
+- Fall back to partial matching if needed
+- Compute similarity on the fly (memory‑safe)
 
 📦 Clean Output
 The recommender returns a compact DataFrame containing:
-
-track_name
-
-artists
-
-album_name
-
-track_genre
-
+- track_name
+- artists
+- album_name
+- track_genre
 Perfect for display or UI integration.
 
 🛠️ Tech Stack
-Python
-
-Pandas, NumPy
-
-Scikit-learn
-
-XGBoost
-
-Matplotlib, Seaborn
-
-Cosine Similarity
-
-Google Colab
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib, Seaborn
+- Cosine Similarity
+- Google Colab
 
 📁 Project Structure
-Mã
+
 Spotify_Song_Recommendation_System.ipynb
 data/
     spotify-tracks-dataset.csv
@@ -117,30 +88,20 @@ Mã
 2     Have It All           Jason Mraz            Have It All           acoustic
 ...
 🧩 How It Works
-User enters a track name
-
-System finds the track index (exact or partial match)
-
-Computes cosine similarity with all tracks
-
-Computes genre match
-
-Predicts hit probability using XGBoost
-
-Combines all three into a hybrid score
-
-Returns the top N recommended songs
+1. User enters a track name
+2. System finds the track index (exact or partial match)
+3. Computes cosine similarity with all tracks
+4. Computes genre match
+5. Predicts hit probability using XGBoost
+6. Combines all three into a hybrid score
+7. Returns the top N recommended songs
 
 🔮 Future Improvements
-Mood-based filtering (energy, valence, tempo)
-
-Artist similarity modeling
-
-Collaborative filtering
-
-Streamlit web app
-
-Album cover images via Spotify API
+- Mood-based filtering (energy, valence, tempo)
+- Artist similarity modeling
+- Collaborative filtering
+- Streamlit web app
+- Album cover images via Spotify API
 
 🙌 Acknowledgements
 Dataset: Spotify Tracks Dataset (Kaggle)  
