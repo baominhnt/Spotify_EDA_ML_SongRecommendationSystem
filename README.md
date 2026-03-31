@@ -76,7 +76,8 @@ README.md
 ▶️ Example Usage
 python
 track_name = "Comedy"
-user_genres = ["acoustic", "pop"] recommend_hybrid_by_name(track_name, user_genres)
+user_genres = ["acoustic", "pop"] recommend_hybrid_by_name(track_name, user_genres).
+
 Example output:
 
 ``` text
