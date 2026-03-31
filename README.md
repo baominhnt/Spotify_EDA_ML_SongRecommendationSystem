@@ -81,7 +81,7 @@ user_genres = ["acoustic", "pop"]
 recommend_hybrid_by_name(track_name, user_genres)
 Example output:
 
-Mã
+
         track_name              artists               album_name        track_genre
 0          Comedy           Gen Hoshino                 Comedy           acoustic
 1         JAMAICA            Feid;Sech   Halloween 2022 Vol. 4               pop
