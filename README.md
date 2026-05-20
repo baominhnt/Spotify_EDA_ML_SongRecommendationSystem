@@ -137,8 +137,11 @@ This project was created to explore music analytics, machine learning, and recom
 
 📬 Contact 
 
-For questions, collaboration, or feedback: Tran Bao Minh "James" Nguyen
+## 📬 Contact
 
-Data Analyst & Dashboard Designer [Linkedin]:(https://www.linkedin.com/in/tran-bao-minh-nguyen-296b01333/)
+For questions, collaboration, or feedback: **Tran Bao Minh "James" Nguyen**  
+Data Analyst & Dashboard Designer  
 
-[For more projects finding]:(https://baominhnt.github.io/tbmnguyen.com/index.html)
+- [LinkedIn](https://www.linkedin.com/in/tran-bao-minh-nguyen-296b01333/)  
+- [Portfolio & More Projects](https://baominhnt.github.io/tbmnguyen.com/index.html)
+
