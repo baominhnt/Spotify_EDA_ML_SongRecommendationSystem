@@ -68,11 +68,35 @@ Perfect for display or UI integration.
 - Google Colab
 
 📁 Project Structure
+```text
+Spotify-EDA-ML-SongRecommendationSystem/
+│
+├── data/
+│   ├── raw/                        # Original Spotify tracks dataset
+│   └── processed/                  # Cleaned and standardized datasets
+│
+├── notebooks/
+│   ├── 01_EDA.ipynb                 # Exploratory Data Analysis
+│   ├── 02_HitPrediction_ML.ipynb    # XGBoost "hit" classification
+│   └── 03_RecSystem.ipynb           # Hybrid recommendation engine
+│
+├── src/
+│   ├── data_preparation.py          # Data cleaning & preprocessing
+│   ├── eda_utils.py                 # Helper functions for EDA
+│   └── recommendation.py            # Hybrid recommender logic
+│
+├── artifacts/
+│   ├── xgb_model.pkl                # Trained XGBoost model
+│   ├── scaler.pkl                   # StandardScaler for features
+│   └── track_embeddings.npy         # Precomputed audio embeddings
+│
+├── outputs/
+│   ├── figures/                     # Exported charts and plots
+│   └── tables/                      # Summary tables and metrics
+│
+└── README.md                        # Project documentation
+```
 
-Spotify_Song_Recommendation_System.ipynb
-data/
-    spotify-tracks-dataset.csv
-README.md
 ▶️ Example Usage
 python
 track_name = "Comedy"
@@ -104,7 +128,9 @@ Example output:
 - Album cover images via Spotify API
 
 🙌 Acknowledgements
-Dataset: Spotify Tracks Dataset (Kaggle)  
+
+Dataset: Spotify Tracks Dataset (Kaggle)
+Cleaned Final Dataset
 This project was created to explore music analytics, machine learning, and recommender system design.
 
 📬 Contact 
