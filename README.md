@@ -130,13 +130,15 @@ Example output:
 🙌 Acknowledgements
 
 Dataset: Spotify Tracks Dataset (Kaggle)
+
 Cleaned Final Dataset
+
 This project was created to explore music analytics, machine learning, and recommender system design.
 
 📬 Contact 
 
 For questions, collaboration, or feedback: Tran Bao Minh "James" Nguyen
 
-Data Analyst & Dashboard Designer [Linkedin:](https://www.linkedin.com/in/tran-bao-minh-nguyen-296b01333/)
+Data Analyst & Dashboard Designer [Linkedin]:(https://www.linkedin.com/in/tran-bao-minh-nguyen-296b01333/)
 
-[For more projects finding:](https://baominhnt.github.io/tbmnguyen.com/index.html)
+[For more projects finding]:(https://baominhnt.github.io/tbmnguyen.com/index.html)
